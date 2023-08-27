@@ -42,6 +42,7 @@ git clone https://github.com/pinballpower/code_dmd
 cd code_dmd
 scripts/install-software
 cd src
+apt-get install build-essential
 ./compile.sh
 ./program-pico.sh
 ```
